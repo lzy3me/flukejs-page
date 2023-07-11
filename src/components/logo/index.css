@@ -1,0 +1,18 @@
+.logo-blur-1st {
+	animation: tracking-in-expand-fwd-top 800ms cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+.suptext-blur-2nd {
+  animation: tracking-in-expand-fwd-top 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530) 800ms both;
+}
+
+ @keyframes tracking-in-expand-fwd-top {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
