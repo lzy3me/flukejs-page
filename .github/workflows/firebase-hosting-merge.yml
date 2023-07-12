@@ -8,6 +8,14 @@ name: Deploy to Firebase Hosting on merge
       - live
 jobs:
   build_and_deploy:
+    env:
+      VITE_FB_APIKEY: '${{ secrets.VITE_FB_APIKEY }}'
+      VITE_FB_AUTH: '${{ secrets.VITE_FB_AUTH }}'
+      VITE_FB_PROJECTID: '${{ secrets.VITE_FB_PROJECTID }}'
+      VITE_FB_STOREBK: '${{ secrets.VITE_FB_STOREBK }}'
+      VITE_FB_MSGSENDERID: '${{ secrets.VITE_FB_MSGSENDERID }}'
+      VITE_FB_APPID: '${{ secrets.VITE_FB_APPID }}'
+      VITE_FB_MEASUREMENT: '${{ secrets.VITE_FB_MEASUREMENT }}'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
