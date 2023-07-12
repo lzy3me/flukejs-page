@@ -6,7 +6,7 @@ function App() {
   Firebase
 
   return (
-    <main>
+    <main className='max-lg:px-5 lg:px-[20rem]'>
       <Logo />
     </main>
   )
