@@ -1,7 +1,7 @@
-import { getAnalytics } from "firebase/analytics";
-import { initializeApp } from "firebase/app";
+import { Analytics, getAnalytics } from "firebase/analytics";
+import { FirebaseApp, initializeApp } from "firebase/app";
 
-function InitFirebase(): unknown {
+function InitFirebase(): [FirebaseApp, Analytics] {
   const firebaseConfig = {
     apiKey: import.meta.env.VITE_FB_APIKEY,
     authDomain: import.meta.env.VITE_FB_AUTH,
@@ -11,8 +11,6 @@ function InitFirebase(): unknown {
     appId: import.meta.env.VITE_FB_APPID,
     measurementId: import.meta.env.VITE_FB_MEASUREMENT,
   };
-
-  console.log("firebase config ====<> ", firebaseConfig);
 
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
