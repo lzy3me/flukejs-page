@@ -1,9 +1,9 @@
 import './App.css'
 import Logo from './components/logo'
-import { InitFirebase } from './firebase'
+import { Firebase } from './firebase'
 
 function App() {
-  InitFirebase();
+  Firebase
 
   return (
     <main>
