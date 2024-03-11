@@ -5,8 +5,19 @@ export default function Page() {
   return (
     <div>
       <Navbar />
-      
+
       <Outlet />
     </div>
-  )
+  );
+}
+
+export async function blogLoader() {
+  const content = await fetch(
+    "https://api.github.com/repos/lzy3me/flukejs-blog/contents/",
+    {
+      method: "GET",
+    }
+  );
+
+  return content;
 }
