@@ -17,17 +17,19 @@ function Logo() {
           <p className="text-xl suptext-blur-2nd">Full-Stack Developer</p>
         </div>
 
-        <div className="max-lg:invisible absolute h-20 overflow-hidden top-1/2 right-1/4 translate-x-full">
-          <ul className="content-show-list">
-            <li className="content-show-list-item">React</li>
-            <li className="content-show-list-item">Roblox</li>
-            <li className="content-show-list-item">Nest.js</li>
-            <li className="content-show-list-item">Angular</li>
-            <li className="content-show-list-item">Spring</li>
-          </ul>
+        <div className="absolute top-1/2 right-1/4 translate-x-full -translate-y-1/2 scroll-blur-3nd">
+          <p className="-top-6">I've worked with</p>
+          <div className="max-lg:invisible absolute h-12 overflow-hidden">
+            <ul className="content-show-list silkscreen-bold">
+              <li className="content-show-list-item">React</li>
+              <li className="content-show-list-item">Roblox</li>
+              <li className="content-show-list-item">Nest.js</li>
+              <li className="content-show-list-item">Angular</li>
+              <li className="content-show-list-item">Spring</li>
+            </ul>
+          </div>
         </div>
       </div>
-      
 
       <div className="absolute flex flex-col left-1/2 right-1/2 bottom-10 scroll-blur-3nd items-center">
         <div className="chevron"></div>
