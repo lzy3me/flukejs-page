@@ -1,0 +1,7 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-image: url(https://cdn.discordapp.com/attachments/1194764254063116498/1295870385996431390/1151379.jpg?ex=671038d8&is=670ee758&hm=7eb2b3faeda25a3a6019944856dfda003c75d35f575440b660097785bc859070&);
+  clip-path: polygon(40% 0, 75% 0, 60% 100%, 19% 100%);
+}
