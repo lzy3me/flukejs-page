@@ -17,9 +17,9 @@ function Logo() {
           <p className="text-xl suptext-blur-2nd">Full-Stack Developer</p>
         </div>
 
-        <div className="absolute top-1/2 right-1/4 translate-x-full -translate-y-1/2 scroll-blur-3nd">
+        <div className="max-lg:invisible absolute top-1/2 right-1/4 translate-x-full -translate-y-1/2 scroll-blur-3nd">
           <p className="-top-6">I've worked with</p>
-          <div className="max-lg:invisible absolute h-12 overflow-hidden">
+          <div className="absolute h-12 overflow-hidden">
             <ul className="content-show-list silkscreen-bold">
               <li className="content-show-list-item">React</li>
               <li className="content-show-list-item">Roblox</li>
