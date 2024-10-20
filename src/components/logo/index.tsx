@@ -5,19 +5,18 @@ function Logo() {
     <section className="logo-section">
       <div className="absolute -z-10 background"></div>
 
-      <div className="flex flex-row max-lg:px-5 lg:px-[18rem]">
-        <div className="flex min-h-screen flex-1 flex-col justify-center">
-          <h1 className="relative py-2 logo-blur-1st w-[380px]">
+      <div className="min-h-screen flex max-lg:flex-col lg:flex-row lg:px-40 xl:px-72 max-lg:items-center justify-center">
+        <div className="flex flex-1 flex-col justify-center max-lg:items-center">
+          <h1 className="max-lg:flex max-lg:flex-col lg:relative py-2 logo-blur-1st lg:w-[380px]">
             F1uke.JS
-            <span className="pr-5"></span>
-            <span className="text-lg pl-5 absolute border-l">
+            <span className="text-lg lg:pl-5 lg:ml-5 lg:absolute max-lg:border-t lg:border-l">
               Jessada Supapsuntorn
             </span>
           </h1>
-          <p className="text-xl suptext-blur-2nd">Full-Stack Developer</p>
+          <p className="text-xl max-lg:ml-2 suptext-blur-2nd">Full-Stack Developer</p>
         </div>
 
-        <div className="max-lg:invisible absolute top-1/2 right-1/4 translate-x-full -translate-y-1/2 scroll-blur-3nd">
+        <div className="max-lg:hidden lg:absolute lg:top-1/2 lg:right-1/4 max-lg:right-1/2 lg:translate-x-full lg:-translate-y-1/2 max-lg:-translate-x-1/3 scroll-blur-3nd">
           <p className="-top-6">I've worked with</p>
           <div className="absolute h-12 overflow-hidden">
             <ul className="content-show-list silkscreen-bold">
