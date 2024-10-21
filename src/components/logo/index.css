@@ -2,7 +2,6 @@
   width: 100vw;
   height: 100vh;
   font-family: "Silkscreen", sans-serif;
-  font-family: "Silkscreen", sans-serif;
 }
 
 .background {
@@ -23,13 +22,11 @@
 }
 
 .logo-blur-1st {
-	animation: tracking-in-expand-fwd-top 800ms cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53) both
     blur-component;
 }
 
 .suptext-blur-2nd {
-  animation: tracking-in-expand-fwd-top 600ms cubic-bezier(0.550, 0.085, 0.680, 0.530) 800ms both;
   animation: 600ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 600ms both
     blur-component;
 }
