@@ -32,8 +32,6 @@ function DelayedList({ items, onRedirect }: { items: TerminalData[], onRedirect:
 }
 
 export default function TerminalLoading({ onRedirect }: { onRedirect: () => void }) {
-  console.log(data);
-
   return (
     <section className="terminal-loading">
       <div className="flex">
