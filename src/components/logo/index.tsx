@@ -1,3 +1,4 @@
+import BottomButton from "../bottomButton";
 import "./index.css";
 
 function Logo() {
@@ -21,21 +22,16 @@ function Logo() {
           <div className="absolute h-12 overflow-hidden">
             <ul className="content-show-list silkscreen-bold">
               <li className="content-show-list-item">React</li>
+              <li className="content-show-list-item">Node</li>
+              <li className="content-show-list-item">Linux</li>
+              <li className="content-show-list-item">AWS</li>
               <li className="content-show-list-item">Roblox</li>
-              <li className="content-show-list-item">Nest.js</li>
-              <li className="content-show-list-item">Angular</li>
-              <li className="content-show-list-item">Spring</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <div className="absolute flex flex-col left-1/2 right-1/2 bottom-10 scroll-blur-3nd items-center">
-        <div className="chevron"></div>
-        <div className="chevron"></div>
-        <div className="chevron"></div>
-        <span className="text">Scroll down</span>
-      </div>
+      <BottomButton className="scroll-blur-3nd" />
     </section>
   );
 }
